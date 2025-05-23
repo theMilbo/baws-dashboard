@@ -2543,15 +2543,6 @@ var UserMenu = () => {
           t2("app.menus.user.profileSettings")
         ] }) }),
         /* @__PURE__ */ jsx13(DropdownMenu2.Separator, {}),
-        /* @__PURE__ */ jsx13(DropdownMenu2.Item, { asChild: true, children: /* @__PURE__ */ jsxs8(Link2, { to: "https://docs.medusajs.com", target: "_blank", children: [
-          /* @__PURE__ */ jsx13(BookOpen, { className: "text-ui-fg-subtle mr-2" }),
-          t2("app.menus.user.documentation")
-        ] }) }),
-        /* @__PURE__ */ jsx13(DropdownMenu2.Item, { asChild: true, children: /* @__PURE__ */ jsxs8(Link2, { to: "https://medusajs.com/changelog/", target: "_blank", children: [
-          /* @__PURE__ */ jsx13(TimelineVertical, { className: "text-ui-fg-subtle mr-2" }),
-          t2("app.menus.user.changelog")
-        ] }) }),
-        /* @__PURE__ */ jsx13(DropdownMenu2.Separator, {}),
         /* @__PURE__ */ jsxs8(DropdownMenu2.Item, { onClick: toggleModal, children: [
           /* @__PURE__ */ jsx13(Keyboard, { className: "text-ui-fg-subtle mr-2" }),
           t2("app.menus.user.shortcuts")
